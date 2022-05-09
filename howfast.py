@@ -9,8 +9,9 @@ from datetime import datetime as dt
 def cpuspeed(testcount=3, runtime=20, log=True): # In seconds, total runtime = 20*3 = 60 seconds
     print('\nInitiating cpu speed test')
 
+    #this is an empty list of test
     numslist = []
-
+    #this is a loop
     for _ in range(testcount):
         start = time.time()
         store = []
